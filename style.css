@@ -38,7 +38,7 @@ body{
   max-width: 900px;
   margin-top: 25px;
   width: 90%;
-  height: 85vh;
+/*   height: 85vh; */
   border-radius: 10px;
   padding: 20px 30px;
   box-shadow: 0px 1px 5px #8b4809;
@@ -103,7 +103,17 @@ hr{
 }
 
 #title{
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#action img{
+  height: 3em;
+}
+
+.rx{
+  background-color: yellow;
 }
 
 
